@@ -1,0 +1,59 @@
+ html,body {
+  height: 100%;
+  width: 90%;
+  background: floralwhite;
+  background-size: contain;
+  color: black;
+  text-align: centre;
+  font-size: 20px;
+}
+img {
+  float: right;
+  border: 5px black;
+  margin: 0px 0px 15px 20px;
+}
+p,ol,ul{
+  font-family: "Trebuchet MS";
+  text-align: centre;
+  color: darkred;
+}
+nav{
+  text-align: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+nav a:hover{
+  color: indianred;
+  background: peachpuff;
+  border: 5px solid ghostwhite;
+}
+h1,h2,h3{
+  color: green;
+  text-decoration: underline overline;
+  font-family: monospace;
+  padding: 10px;
+}
+.grandParentContaniner{
+		display:flex; 
+    height: 150px;
+    width: 250px;
+  background:rosybrown;
+	}
+
+	.parentContainer{
+		display:table-cell; 
+    
+	}	
+
+  .container {
+    display: flex;
+    width: 100px;
+    margin: 80px;
+    align-content: center;
+  } 
+  .box .text {
+    background: rosybrown;
+    width: 100%;
+    padding: 20px 20px;
+    }
